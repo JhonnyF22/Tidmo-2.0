@@ -1,0 +1,182 @@
+header#cabeca {
+  width: 100%;
+  background-image: url(../IMG/bg\ \(1\).svg);
+  border-radius: 0 0 4rem 4rem;
+}
+
+.principal-header {
+  width: 124rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+.box-left {
+  width: 55.9rem;
+  margin: 10.9rem 0 18rem 15rem;
+}
+
+.box-p {
+  width: 48.1rem;
+  margin: 1.5rem 0 6.4rem 0;
+}
+
+main#page-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: var(--Cinza);
+}
+
+.second-header,
+.second-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-header {
+  width: 124rem;
+  position: relative;
+  margin: 0 0 5.4rem 0;
+}
+
+.relative {
+  padding: 5rem 0 0 0;
+  z-index: 1;
+}
+
+.position-img {
+  position: absolute;
+  top: 1rem;
+}
+
+.second-content {
+  gap: 3.2rem;
+}
+
+.second-footer {
+  margin: 3.1rem 0 8.5rem 0;
+}
+.text-two {
+  margin: 2.7rem 0 5.1rem 0;
+}
+
+section#page-three {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../IMG/bg-facil-pratico.svg);
+  border-radius: 4rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-three {
+  width: 49.4rem;
+  display: flex;
+  position: relative;
+}
+.relative-three {
+  padding: 8.3rem 0 0 5.5rem;
+  z-index: 1;
+}
+.position-img-three {
+  position: absolute;
+  margin-top: 5.5rem;
+}
+
+.mid-three {
+  margin: 7.5rem 0 7rem 0;
+}
+
+.footer-three {
+  width: 78.6rem;
+  margin: 0 0 4rem 0;
+}
+
+.buttom-three {
+  margin-bottom: 7.9rem;
+}
+
+#page-four {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.header-four {
+  position: relative;
+  display: flex;
+  margin: 7.8rem 0 4.8rem 0;
+  justify-content: center;
+ width: 100%;
+}
+.cabecalho-four {
+  padding-top: 1.5rem;
+  z-index: 1;
+}
+.relative-img-four {
+  position: absolute;
+ top: 7rem;
+}
+
+.relative-four{
+  position: absolute;
+  margin: -2rem 90rem 0 0;
+}
+.content-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+.buttom-four{
+  margin: 5.8rem 0 9.6rem 0;
+}
+
+#footer{
+  width: 100%;
+  background-color: var(--Azul);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.s-footer{
+  width: 124rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+.footer-left, .footer-rigth{
+  width: 50%;
+  display: flex;
+
+}
+.footer-left{
+  flex-direction: column;
+  position: relative;
+}
+.footer-rigth{
+  justify-content: center;
+  align-items: center;
+  margin-top: 10.8rem;
+}
+
+.footer-center{
+  display: flex;
+  margin: 3.2rem 0 8.1rem 0;
+  
+}
